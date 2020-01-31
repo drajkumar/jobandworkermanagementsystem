@@ -1,0 +1,129 @@
+/* =============================================================================
+           Small Screen - Tablate/Others
+ ============================================================================= */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+.border-p {margin-bottom: 30px;}
+.nav-al ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 6px 12px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	transition: 0.2s all ease;
+}
+
+
+}
+
+/* =============================================================================
+            Xtra Small Screen - Tablate
+ ============================================================================= */
+@media screen and (min-width: 480px) and (max-width: 767px) {	
+
+
+.log-header-right ul {
+	margin-left: 180px;
+	float: none;	
+}
+.log-header-left h2 {text-align: center;}
+.log-header-left h4 {text-align: center;}
+.log-header-left {padding: 13px 15px 0px 15px;}
+.log-header-right {padding: 0px 15px 5px 15px;}
+.log-nav-left p {
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+.log-nav-right p {
+	padding-bottom: 10px;
+	padding-top: 2px;
+}
+.td-padding {padding-left: 15px;}
+.log-main-part {padding: 22px 22px 30px 22px;}
+.log-main-part input[type="email"],.log-main-part input[type="password"] {
+	padding: 5px 5px 5px 10px;
+	width: 95%;
+}
+.log-main-part input {margin-bottom: 8px;}
+.border-p {margin-bottom: 28px;}
+.nav-al-bottom-3 a {
+	display: inline-block;
+	float: none;
+	margin-bottom: 10px;
+}
+.nav-al-bottom-1,.nav-al-bottom-2,.nav-al-bottom-3 {
+	background: #D0E1EB;
+	padding: 15px;
+}
+.al-head {padding-bottom: 14px;}
+.js #nav { display: none; }
+.js .selectnav { display: block;}
+.al-table-part {
+	overflow: scroll;
+	width: 100%;
+}
+.al-table-part th {
+	padding-bottom: 10px;
+	padding-right: 25px;
+}
+
+
+
+}
+
+/* =============================================================================
+            Xtra Small Screen - Mobile Phone
+ ============================================================================= */
+@media screen and (max-width: 479px) {
+
+
+.log-header-right ul {
+	margin-left: 60px;
+	float: none;
+}
+.log-header-left h2 {text-align: center;}
+.log-header-left h4 {text-align: center;}
+.log-header-left {padding: 13px 15px 0px 15px;}
+.log-header-right {padding: 0px 15px 5px 15px;}
+.log-nav-left p {
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+.log-nav-right p {
+	padding-bottom: 10px;
+	padding-top: 2px;
+
+}
+.td-padding {padding-left: 15px;}
+.log-main-part {padding: 22px 22px 30px 22px;}
+.log-main-part input[type="email"],.log-main-part input[type="password"] {
+	padding: 3px 3px 3px 10px;
+	width: 95%;
+}
+.log-main-part input {margin-bottom: 8px;}
+.border-p {margin-bottom: 25px;}
+.log-footer p a {padding: 4px;}
+.nav-al-bottom-3 a {
+	display: inline-block;
+	float: none;
+	margin-bottom: 10px;
+}
+.nav-al-bottom-1,.nav-al-bottom-2,.nav-al-bottom-3 {
+	background: #D0E1EB;
+	padding: 10px;
+}
+.al-head {padding-bottom: 10px;}
+.js #nav { display: none; }
+.js .selectnav { display: block;}
+.al-table-part {
+	overflow: scroll;
+	width: 100%;
+}
+.al-table-part th {
+	padding-bottom: 10px;
+	padding-right: 1px;
+}
+
+
+}
